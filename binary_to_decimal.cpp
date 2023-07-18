@@ -16,6 +16,8 @@ int main()
 
 void binary_to_decimal(int binary_number)
 {
+    //Time complexity : O(n) 
+   // Space Complexity : O(1)--->no extra space is used except variables which has space somplexity of O(1)
     int last_digit = 0;
     int decimal_number = 0;
     int temp=binary_number;
