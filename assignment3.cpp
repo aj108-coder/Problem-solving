@@ -20,7 +20,7 @@ int main()
 
 {
     int length;  // length is the size of string to be generated
-        cout<<"Enter the length of slphanumerci string what you want : ";
+        cout<<"Enter the length of alphanumeric string what you want : ";
             cin>>length;
         
 
