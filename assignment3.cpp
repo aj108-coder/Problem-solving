@@ -36,6 +36,16 @@ int main()
     else
     {
         cout<<"Enter the valid length of alphanumeric string ( Range of length : 0 < length <=your choice) ";
+            cout<<endl<<"Enter the lenngth : ";
+                cin>>length;     
+
+
+        string hexadecimal = generateRandomHexadecimal(length);
+
+                cout<<"The randomly generated characters are : "<<hexadecimal;
+       
     }
+
+        return 0;
 
 }
